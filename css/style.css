@@ -328,9 +328,9 @@ span img {
   margin: 0;
   background: url('https://cdn.pixabay.com/photo/2017/02/05/19/23/eye-2040986_960_720.jpg') 0 0/cover no-repeat;
   height: 100vh;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: 100%;
 }
 .price__title {
@@ -339,15 +339,18 @@ span img {
   color: #fff;
   font-size: 46px;
   font-weight: 700;
-  margin: 0px 0px 20px 0px;
+  margin: 20px 0px;
+  padding: 10px;
 }
 .price__title:hover {
   color: #DBF227;
 }
 .price> .container {
   width: 100%;
-  display: flex;
   padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .price__card-box {
   display: flex;
@@ -568,15 +571,18 @@ span img {
 }
 .footer {
   width: 100%;
-  background: #042940;
-  min-height: 100px;
+  background: url('https://cdn.pixabay.com/photo/2016/02/26/06/05/lens-1223583_960_720.jpg') center/ cover no-repeat;
+  min-height: 300px;
   margin: 0 auto;
   color: #fff;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .footer__body {
+  background: #04294091;
   display: flex;
+  height: 250px;
 }
 .footer__item {
   margin: 20px;
